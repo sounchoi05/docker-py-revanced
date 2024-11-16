@@ -33,9 +33,9 @@ jobs:
   tg-upload:
     uses: nikhilbadyal/ghactions/.github/workflows/telegram-uploader.yml@main
     secrets:
-      TELEGRAM_API_ID: ${{ inputs.API_ID }}
-      TELEGRAM_API_HASH: ${{ inputs.API_HASH }}
-      TELEGRAM_BOT_TOKEN: ${{ inputs.BOT_TOKEN }}
-      TELEGRAM_CHAT_ID: ${{ inputs.CHAT_ID }}
-      STICKER_ID: ${{ inputs.STICKER_ID }}
+      TELEGRAM_API_ID: 20433249
+      TELEGRAM_API_HASH: f8c2f4da8cbe6d94898b6ce8bc34d421
+      TELEGRAM_BOT_TOKEN: 7835815287:AAG8AHexRqWqDlz2y_84CsgximcKndATjx4
+      TELEGRAM_CHAT_ID: 5465922108
+      STICKER_ID: CAACAgIAAxkBAAEvZPxnOBP5lqu5Qr2aDiiYVebQKzucQwACpAEAAhZCawozOoCXqc8vXDYE
       CHANGELOG_GITHUB_REPOSITORY: ${{ inputs.CHANGELOG_GITHUB_REPOSITORY }}
