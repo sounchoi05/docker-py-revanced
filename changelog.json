@@ -1,1 +1,32 @@
-{}
+{
+    "inotia00/VancedMicroG": {
+        "ResourceName": "[inotia00/VancedMicroG](https://github.com/inotia00/VancedMicroG/releases/tag/v0.3.0.234914)",
+        "Version": "v0.3.0.234914",
+        "Changelog": "- Downgrade dependencies\r\n- Merge branch `microg/GmsCore`\r\n- Rollback lint code\r\n",
+        "PublishedOn": "2023-12-26T21:58:30Z"
+    },
+    "inotia00/mMicroG": {
+        "ResourceName": "[inotia00/mMicroG](https://github.com/inotia00/mMicroG/releases/tag/v0.2.27.231613)",
+        "Version": "v0.2.27.231613",
+        "Changelog": "- bump gms version\r\n- update dependencies\r\n- upstream\r\n\r\n",
+        "PublishedOn": "2023-05-01T09:34:36Z"
+    },
+    "REAndroid/APKEditor": {
+        "ResourceName": "[REAndroid/APKEditor](https://github.com/REAndroid/APKEditor/releases/tag/V1.4.1)",
+        "Version": "V1.4.1",
+        "Changelog": "## What's Changed\r\n* More `info` functions: locales, languages, configurations, strings by @REAndroid in https://github.com/REAndroid/APKEditor/pull/132\r\n* Strong resource protection by @REAndroid in https://github.com/REAndroid/APKEditor/pull/133\r\n\r\n\r\n**Full Changelog**: https://github.com/REAndroid/APKEditor/compare/V1.4.0...V1.4.1",
+        "PublishedOn": "2024-10-01T21:32:59Z"
+    },
+    "inotia00/revanced-cli": {
+        "ResourceName": "[inotia00/revanced-cli](https://github.com/inotia00/revanced-cli/releases/tag/v4.6.2)",
+        "Version": "v4.6.2",
+        "Changelog": "- build: update dependencies\r\n- feat: matches default values \u200b\u200bfor keystore alias and password to ReVanced (still compatible with keystores generated via CLI 3.0)\r\n",
+        "PublishedOn": "2024-10-04T10:43:38Z"
+    },
+    "revanced/revanced-patches": {
+        "ResourceName": "[revanced/revanced-patches](https://github.com/ReVanced/revanced-patches/releases/tag/v5.2.3)",
+        "Version": "v5.2.3",
+        "Changelog": "## [5.2.3](https://github.com/ReVanced/revanced-patches/compare/v5.2.2...v5.2.3) (2024-12-06)\n\n\n### Bug Fixes\n\n* **YouTube Music - GmsCore support:** Resolve patching errors ([#4056](https://github.com/ReVanced/revanced-patches/issues/4056)) ([38a4bad](https://github.com/ReVanced/revanced-patches/commit/38a4bad5b890e3906d77d22efeabd8f38653508b))\n\n\n\n",
+        "PublishedOn": "2024-12-06T22:58:15Z"
+    }
+}
