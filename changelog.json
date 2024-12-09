@@ -1,1 +1,32 @@
-{}
+{
+    "inotia00/VancedMicroG": {
+        "ResourceName": "[inotia00/VancedMicroG](https://github.com/inotia00/VancedMicroG/releases/tag/v0.3.0.234914)",
+        "Version": "v0.3.0.234914",
+        "Changelog": "- Downgrade dependencies\r\n- Merge branch `microg/GmsCore`\r\n- Rollback lint code\r\n",
+        "PublishedOn": "2023-12-26T21:58:30Z"
+    },
+    "inotia00/mMicroG": {
+        "ResourceName": "[inotia00/mMicroG](https://github.com/inotia00/mMicroG/releases/tag/v0.2.27.231613)",
+        "Version": "v0.2.27.231613",
+        "Changelog": "- bump gms version\r\n- update dependencies\r\n- upstream\r\n\r\n",
+        "PublishedOn": "2023-05-01T09:34:36Z"
+    },
+    "REAndroid/APKEditor": {
+        "ResourceName": "[REAndroid/APKEditor](https://github.com/REAndroid/APKEditor/releases/tag/V1.4.1)",
+        "Version": "V1.4.1",
+        "Changelog": "## What's Changed\r\n* More `info` functions: locales, languages, configurations, strings by @REAndroid in https://github.com/REAndroid/APKEditor/pull/132\r\n* Strong resource protection by @REAndroid in https://github.com/REAndroid/APKEditor/pull/133\r\n\r\n\r\n**Full Changelog**: https://github.com/REAndroid/APKEditor/compare/V1.4.0...V1.4.1",
+        "PublishedOn": "2024-10-01T21:32:59Z"
+    },
+    "inotia00/revanced-cli": {
+        "ResourceName": "[inotia00/revanced-cli](https://github.com/inotia00/revanced-cli/releases/tag/v5.0.1)",
+        "Version": "v5.0.1",
+        "Changelog": "- Based on ReVanced Cli [5.0.0](https://github.com/ReVanced/revanced-cli/tree/v5.0.0)\r\n- Added option command `options` (`options.json` file generator)\r\n- Added option command `patches` (`patches.json` file generator)\r\n- Added option command `--legacy-options` (set patch option via options.json file)\r\n- Added option command `--rip-libs` (remove native libs from apk)\r\n- Added option command `--unsigned` (disable signing of the final apk, regardless of whether it is mounted or not)\r\n- Added support anti-split (merged some [REAndroid/ARSCLib](https://github.com/REAndroid/ARSCLib) sources to implement anti-split)\r\n\r\n",
+        "PublishedOn": "2024-12-08T09:50:42Z"
+    },
+    "revanced/revanced-patches": {
+        "ResourceName": "[revanced/revanced-patches](https://github.com/ReVanced/revanced-patches/releases/tag/v5.3.0)",
+        "Version": "v5.3.0",
+        "Changelog": "# [5.3.0](https://github.com/ReVanced/revanced-patches/compare/v5.2.3...v5.3.0) (2024-12-09)\n\n\n### Bug Fixes\n\n* **Change package name:** Prevent applying the patch to known incompatible apps ([#3943](https://github.com/ReVanced/revanced-patches/issues/3943)) ([44936e7](https://github.com/ReVanced/revanced-patches/commit/44936e71e846f72f7279950232a5dba37765ceb3))\n* **Reddit:** Fix patches by using correct extension class ([70bdc68](https://github.com/ReVanced/revanced-patches/commit/70bdc6840d465399625aa1ae0259f49e72711955))\n* **Sync for Reddit:** Fix patches by using correct extension name ([030093e](https://github.com/ReVanced/revanced-patches/commit/030093e913aab3fab43935eedbaeba0f6c0491bb))\n* **Twitter:** Merge correct extension by depending on correct extension patch ([8281cf6](https://github.com/ReVanced/revanced-patches/commit/8281cf6a3eead8cc25a277371e0b0ab2be982497))\n* **YouTube - Spoof video streams:** Add missing preferred language preference to the settings ([630633c](https://github.com/ReVanced/revanced-patches/commit/630633cf57c65c65e5578046413e17670ae336e8))\n* **YouTube - Spoof video streams:** Enable opus codec by updating iOS client version ([#4063](https://github.com/ReVanced/revanced-patches/issues/4063)) ([0af156f](https://github.com/ReVanced/revanced-patches/commit/0af156f18972c5f089af4bb69824968d2a47d18f))\n* **YouTube - Spoof video streams:** Update `Force AVC` client data ([#4064](https://github.com/ReVanced/revanced-patches/issues/4064)) ([7d537dd](https://github.com/ReVanced/revanced-patches/commit/7d537ddff4bb5421fa320741275131a66ef5c7bb))\n* **YouTube Music - Permanent shuffle:** Remove obsolete and non functional patch ([#4073](https://github.com/ReVanced/revanced-patches/issues/4073)) ([fbc6ab6](https://github.com/ReVanced/revanced-patches/commit/fbc6ab6a357b351f02d4d486ddc2072cf53199c3))\n\n\n### Features\n\n* **Nyx:** Remove broken `Unlock pro` patch ([1fe8b16](https://github.com/ReVanced/revanced-patches/commit/1fe8b164eab0c4fa80ab2da2581977f5111a2858))\n* **YouTube - Spoof video streams:** Allow picking a default audio language track ([#4050](https://github.com/ReVanced/revanced-patches/issues/4050)) ([ede666b](https://github.com/ReVanced/revanced-patches/commit/ede666b5cb64fcbaa1334ad8bef79e2634ced113))\n* **YouTube Music:** Add `Spoof video streams` patch to fix playback ([#4065](https://github.com/ReVanced/revanced-patches/issues/4065)) ([cf3116a](https://github.com/ReVanced/revanced-patches/commit/cf3116a7583d09c25c798a85687a056f143656f0))\n* **YouTube:** Add `Open videos fullscreen` patch ([#4069](https://github.com/ReVanced/revanced-patches/issues/4069)) ([296d63b](https://github.com/ReVanced/revanced-patches/commit/296d63bd42c338a01efbcb2df702e5822d05a5f1))\n\n\n\n",
+        "PublishedOn": "2024-12-09T06:12:09Z"
+    }
+}
